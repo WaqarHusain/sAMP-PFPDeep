@@ -8,3 +8,6 @@ A model for predicting short anti microbial peptides (length &lt;=30 residues) u
 4. An example input file is given also. You can use this one for making predictions. 
 5. The code requires Keras, BioPython, OpenCV and Pillow mainly to execute. If you face any issues with dependencies, ENV.yml has been provided so you can create new environment using this YAML file.
 6. Thank you!
+
+# Citation
+Waqar Hussain, sAMP-PFPDeep: Improving accuracy of short antimicrobial peptides prediction using three different sequence encodings and deep neural networks, Briefings in Bioinformatics, 2021;, bbab487, https://doi.org/10.1093/bib/bbab487
