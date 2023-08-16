@@ -167,7 +167,7 @@ def define_model_VGG():
     model.add(Dense(1, activation='sigmoid'))
     # compile model
     opt = SGD(lr=0.001, momentum=0.9)
-    model.load_weights('newWeightsVGG.h5')
+    model.load_weights('./model/newWeightsVGG.h5')
     model.compile(optimizer=opt, loss='binary_crossentropy', metrics=['accuracy'])
     return model
 
