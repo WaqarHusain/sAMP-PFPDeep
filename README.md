@@ -1,13 +1,11 @@
 # sAMP-PFPDeep
-A model for predicting short anti microbial peptides (length &lt;=30 residues) using multiple features and deep learning approaches
+A model for predicting short anti-microbial peptides (length &lt;=30 residues) using multiple features and deep learning approaches
 
 # To run sAMP-PFPDeep
-1. Firstly download weights of the model from [HERE](https://drive.google.com/file/d/1o65-lXZ2Vvai1Jek9SrrIFXtgbtBhItm/view?usp=sharing), as size of weights is larger than 25MBs.
-2. Put all sequences in FASTA format in a single file. 
+1. Install dependencies using ENV.yml.  
+2. Input format is FASTA, so put all sequences in a single FASTA file. 
 3. Mention file name and correct file path in sAMP-PFPDeep.py in start at **FASTA_INPUT_FILE_NAME = "./Example.fasta"**
-4. An example input file is given also. You can use this one for making predictions. 
-5. The code requires Keras, BioPython, OpenCV and Pillow mainly to execute. If you face any issues with dependencies, ENV.yml has been provided so you can create new environment using this YAML file.
-6. Thank you!
-
+4. Run sAMP-PFPDeep.py. 
+   
 # Citation
-Waqar Hussain, sAMP-PFPDeep: Improving accuracy of short antimicrobial peptides prediction using three different sequence encodings and deep neural networks, Briefings in Bioinformatics, 2021;, bbab487, https://doi.org/10.1093/bib/bbab487
+Waqar Hussain, sAMP-PFPDeep: Improving accuracy of short antimicrobial peptides prediction using three different sequence encodings and deep neural networks, Briefings in Bioinformatics, 2021; bbab487, https://doi.org/10.1093/bib/bbab487
